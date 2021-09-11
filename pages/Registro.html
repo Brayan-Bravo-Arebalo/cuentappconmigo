@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="/css/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="col-3">
+        <form action="">
+            <div id="registroEmpresa">
+                <h3 class="">Registro Empresa</h3>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="nombreEmpresa" placeholder=" ">
+                    <label for="nombreEmpresa">Nombre Empresa</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="emailIntitucion" placeholder=" ">
+                    <label for="emailIntitucion">Email de la intitucion</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="rut" placeholder=" ">
+                    <label for="rut">Rut</label>
+                </div>
+                <br>
+                <div class="form-floating ">
+                    <input type="password" class="form-control" id="password" placeholder=" ">
+                    <label for="password">Password por defecto para los usuarios creados</label>
+                </div>
+
+                <br>
+                <div class="form-floating">
+                    <textarea class="form-control" id="Descripcion" placeholder=" " style="height: 100px"></textarea>
+                    <label for="Descripcion">Descripcion de la Empresa</label>
+                </div>
+                <br>
+
+                <div>
+                    <button>agregar integrante</button>
+                    <button>agregar cargo</button>
+                </div>
+            </div>
+
+            <template id="templateCargo">
+                <div>
+                    
+                    <div class="form-floating">
+                        <input type="text" class="form-control" placeholder=" ">
+                        <label for="">Ingrese cargo</label>
+                    </div>
+
+                    <div>
+                        <select name="" id="" class="form-select">
+                            <option selected>seleccione cargo</option>
+                        </select>
+    
+                    </div>
+
+                </div>
+
+            </template>
+
+
+
+
+            <br>
+            <div>
+                <h3>Empleado</h3>
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder=" ">
+                    <label>Nombre</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder=" ">
+                    <label for="">Run</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="email" class="form-control" placeholder=" ">
+                    <label for="">Email</label>
+                </div>
+                <br>
+                <div>
+                    <select name="" id="" class="form-select">
+                        <option selected>seleccione cargo</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+        </form>
+
+
+        
+    </div>
+
+
+
+
+    <script src="/css/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
